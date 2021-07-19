@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- plugin to add order mode for service item  -->
+    <type name="Magento\SalesRule\Model\Rule\Condition\Product">
+        <plugin name="Magearya_SalesRule::Order_Modesrules" type="Magearya\SalesRule\Plugin\Condition\OrderModeRules" />
+    </type>
+</config>
+
+
